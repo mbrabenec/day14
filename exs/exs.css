@@ -1,0 +1,75 @@
+
+* {
+    box-sizing: border-box;
+
+}
+
+
+.wrapper {
+    width: 25rem;
+    height: auto;
+    margin: 3em 0;
+    padding: 1em;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+
+}
+
+.crossing__button {
+    text-align: center;
+    padding: 1em;
+
+}
+
+.x__time {
+
+    height:2em;
+    width: 20%;
+    margin: auto;
+    background-color: lightgray;
+    text-align: center;
+    padding: 1em;
+    color: green;
+    font-weight: 600;
+
+}
+
+.graphic {
+    height: 10rem;
+    margin: 1rem;
+
+}
+
+.walking {
+    background-image: url("walk-off.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.walking--on {
+    background-image: url("walk-on.svg");
+}
+
+
+
+.standing {
+    background-image: url("stop-on.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.standing--off {
+    background-image: url("stop-off.svg");
+}
+
+.kitchen {
+
+    margin: 3em auto;
+    text-align: center;
+}
